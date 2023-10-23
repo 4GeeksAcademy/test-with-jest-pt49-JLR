@@ -7,7 +7,6 @@ test('adds 14 + 9 to equal 23', () => {
 });
 
 test("1 euro should be 1.07 dollars", function() {
-    // Importo la funcion desde app.js
     const { fromEuroToDollar } = require('./app.js');
     const dollars = fromEuroToDollar(1);
     const expected = 1 * 1.07;
